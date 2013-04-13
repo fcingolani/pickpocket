@@ -1,0 +1,26 @@
+{
+  "name": "pickpocket",
+  "description": "",
+  "version": "0.0.1",
+  "author": {
+    "name": "Federico Cingolani",
+    "email": "mail@fcingolani.com.ar"
+  },
+  "keywords": [],
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "jade": "*",
+    "ifttt": "https://github.com/fcingolani/node-ifttt/tarball/master"
+  },
+  "main": "./index.js",
+  "bugs": {
+    "url": "https://github.com/fcingolani/pickpocket/issues/new"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fcingolani/pickpocket.git"
+  },
+  "homepage": "https://github.com/fcingolani/pickpocket",
+  "readmeFilename": "README.md"
+}

@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  each post in posts
+    .post
+      .date #{post.created}
+      a(href=post.url, title=post.title)
+        img(src=post.imageUrl, alt=post.title)
+      h2 
+        a(href=post.url, title=post.title) #{post.title}
+      p #{post.excerpt}
